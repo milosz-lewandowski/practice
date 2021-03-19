@@ -1,6 +1,5 @@
-package pl.miloszlewandowski.hackersRank;
+package pl.miloszlewandowski.hackersRank.dataStructures;
 
-import java.io.IOException;
 import java.lang.reflect.Method;
 
 

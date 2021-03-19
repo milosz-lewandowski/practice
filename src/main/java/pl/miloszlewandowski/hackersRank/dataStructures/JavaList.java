@@ -1,4 +1,4 @@
-package pl.miloszlewandowski.hackersRank;
+package pl.miloszlewandowski.hackersRank.dataStructures;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
