@@ -1,4 +1,4 @@
-package pl.miloszlewandowski.Strings;
+package pl.miloszlewandowski.hackersRank.Strings;
 
 import java.util.Scanner;
 import java.util.regex.*;
