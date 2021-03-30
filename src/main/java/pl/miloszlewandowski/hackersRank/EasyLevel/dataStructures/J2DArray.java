@@ -1,4 +1,4 @@
-package pl.miloszlewandowski.hackersRank.dataStructures;
+package pl.miloszlewandowski.hackersRank.EasyLevel.dataStructures;
 
 import java.util.Scanner;
 
