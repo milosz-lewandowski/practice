@@ -1,4 +1,4 @@
-package pl.miloszlewandowski.hackersRank.Advanced;
+package pl.miloszlewandowski.hackersRank.EasyLevel.Advanced;
 
 class Singleton {
     private Singleton() {
