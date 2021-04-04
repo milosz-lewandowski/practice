@@ -14,6 +14,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
+//@RequestMapping("/api")
 public class CustomerController {
 
     private final CustomerRepository customerRepository;
@@ -24,19 +25,18 @@ public class CustomerController {
         this.assembler = assembler;
     }
 
-    @GetMapping("/")
-    public ModelAndView index(){
-        ModelAndView mav = new ModelAndView();
-        mav.setViewName("index");
-        return mav;
-    }
 
-    @GetMapping("/justhappened")
-    public ModelAndView justhappened(){
-        ModelAndView mav = new ModelAndView();
-        mav.setViewName("jh");
-        return mav;
-    }
+
+//    @GetMapping("/vue")
+//    public ModelAndView testVueJS(){
+//        ModelAndView mav = new ModelAndView();
+//        mav.setViewName("testVueJS");
+//        return mav;
+//    }
+
+
+
+
 
     @GetMapping("/customers")
     public CollectionModel getCustomersList(){
