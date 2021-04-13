@@ -4,11 +4,12 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class JavaStack {
-    public static void main(String []argh)
-    {
+    public static void main(String []argh){
+
         Scanner sc = new Scanner(System.in);
 
         while (sc.hasNext()) {
+
             String input=sc.next();
             Stack<Character> stacky = new Stack<>();
             for (int i = 0; i < input.length(); i++) {
