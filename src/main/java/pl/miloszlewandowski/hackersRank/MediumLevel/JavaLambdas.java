@@ -76,7 +76,6 @@ public class JavaLambdas {
                 op = ob.isPalindrome();
                 ret = ob.checker(op, num);
                 ans = (ret) ? "PALINDROME" : "NOT PALINDROME";
-
             }
             System.out.println(ans);
         }
