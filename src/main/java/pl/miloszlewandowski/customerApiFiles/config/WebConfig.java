@@ -1,4 +1,4 @@
-package pl.miloszlewandowski.config;
+package pl.miloszlewandowski.customerApiFiles.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
