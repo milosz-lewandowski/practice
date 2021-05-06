@@ -1,6 +1,4 @@
-package pl.miloszlewandowski;
-
-import java.util.List;
+package pl.miloszlewandowski.customerApiFiles;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

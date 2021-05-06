@@ -1,4 +1,4 @@
-package pl.miloszlewandowski;
+package pl.miloszlewandowski.customerApiFiles;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package pl.miloszlewandowski;
+package pl.miloszlewandowski.customerApiFiles;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
