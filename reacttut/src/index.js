@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-
 
 function Square(props) {
     return (
@@ -32,7 +30,9 @@ function calculateWinner(squares) {
     return null;
 }
 
+
 class Board extends React.Component {
+
     constructor(props) {
         super(props)
         this.state = {squares: Array(9).fill(null),
@@ -58,7 +58,6 @@ class Board extends React.Component {
             />
         );
     }
-
     render() {
         const winner = calculateWinner(this.state.squares);
         let status;
@@ -67,7 +66,6 @@ class Board extends React.Component {
         } else {
             status = 'Następny gracz: ' + (this.state.xIsNext ? 'X' : 'O');
         }
-
         return (
             <div>
                 <div className="status">{status}</div>
@@ -91,6 +89,7 @@ class Board extends React.Component {
     }
 }
 
+
 class Game extends React.Component {
 
     renderSquare(i) {
@@ -100,8 +99,6 @@ class Game extends React.Component {
             />
         );
     }
-
-
     render() {
         return (
             <div className="game">
@@ -115,9 +112,8 @@ class Game extends React.Component {
             </div>
         );
     }
-}
 
-// ========================================
+}
 
 ReactDOM.render(
     <Game />,
