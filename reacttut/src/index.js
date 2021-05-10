@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 class Square extends React.Component {
     render() {
         return (
-            <button className="square">
-                {/* TODO */}
+            <button className="square" onClick={function() {alert('clicked');}}>
+                {this.props.value}
             </button>
         );
     }
@@ -16,7 +16,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
     renderSquare(i) {
-        return <Square />;
+        return <Square value ={i} />;
     }
 
     render() {
