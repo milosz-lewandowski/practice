@@ -16,6 +16,10 @@ ol, ul {
   padding-left: 30px;
 }
 
+.board-row{
+  width:102px;
+}
+
 .board-row:after {
   clear: both;
   content: "";
@@ -49,10 +53,10 @@ ol, ul {
   background: #ddd;
 }
 
-.game {
-  display: flex;
-  flex-direction: row;
-}
+/*.game {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*}*/
 
 .game-info {
   margin-left: 20px;
