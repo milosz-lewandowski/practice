@@ -26,6 +26,16 @@ public class TagContentExtractor {
             while (matcher.find()) {
                 System.out.println(matcher.group(2));
 
+                /**
+                 *  Used code below to understand how
+                 *  matcher.group() method works
+                 */
+                
+                MatchResult result
+                        = matcher.toMatchResult();
+                System.out.println("Current Matcher: "
+                        + result);
+
                 matchFound = true;
             }
             if ( ! matchFound) {
