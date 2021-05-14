@@ -20,11 +20,6 @@ export class App extends React.Component{
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{textAlign: 'center', border: '1px solid black'}}>
-                        <Game />
-                    </Col>
-                </Row>
-                <Row>
                     <Col>
                         <SectionsContainer />
                     </Col>
