@@ -10,7 +10,7 @@ export class SectionsContainer extends React.Component{
             <Accordion defaultActiveKey="0">
                 <Card>
                     <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                        <Accordion.Toggle as={Button} variant="text" eventKey="1">
                             Game Section
                         </Accordion.Toggle>
                     </Card.Header>
@@ -22,7 +22,7 @@ export class SectionsContainer extends React.Component{
                 </Card>
                 <Card>
                     <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                        <Accordion.Toggle as={Button} variant="text" eventKey="0">
                             Music Section
                         </Accordion.Toggle>
                     </Card.Header>
