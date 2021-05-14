@@ -8,7 +8,7 @@ export class NavigationBar extends React.Component{
             <Navbar bg="light" expand="lg">
                 {/*<Navbar.Toggle aria-controls="basic-navbar-nav">Menu</Navbar.Toggle>*/}
                 {/*<Navbar.Collapse id="basic-navbar-nav">*/}
-                    <Nav className="mr-auto">
+                <Nav className="justify-content-center">
                         <NavDropdown title="My projects" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://miloszlewandowski.pl/justhappened">JustHappened description</NavDropdown.Item>
                             <NavDropdown.Divider />
@@ -19,8 +19,13 @@ export class NavigationBar extends React.Component{
                         {/*<Nav.Link href="#link">My resume</Nav.Link>*/}
                         {/*<Nav.Link href="#home">About me</Nav.Link>*/}
                     </Nav>
-                <NavItem href="#link">My resume</NavItem>
-                <NavItem  href="#home">About me</NavItem>
+                <span>
+                    <NavItem href="#link">My resume</NavItem>
+                </span>
+                <span>
+                    <NavItem  href="#home">About me</NavItem>
+                </span>
+
                 {/*</Navbar.Collapse>*/}
             </Navbar>
         )
