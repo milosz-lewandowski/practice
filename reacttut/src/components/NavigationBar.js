@@ -1,5 +1,6 @@
 import React from "react";
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button, NavLink, NavItem} from "react-bootstrap";
+import {Navbar, Nav, NavDropdown, } from "react-bootstrap";
+import {LaunchTechDetailsModal} from "./TechnicalDetails";
 
 
 export class NavigationBar extends React.Component{
@@ -12,7 +13,7 @@ export class NavigationBar extends React.Component{
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="https://miloszlewandowski.pl/">Previous static page</NavDropdown.Item>
                             <NavDropdown.Item href="https://miloszlewandowski.pl/therapists">JustHappened Therapists API test</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Technical details [TODO]</NavDropdown.Item>
+                            {/*<NavDropdown.Item onClick={LaunchTechDetailsModal}>Technical details</NavDropdown.Item>*/}
                         </NavDropdown>
                     </Nav>
                     <Nav.Link href="#link" >My resume</Nav.Link>
