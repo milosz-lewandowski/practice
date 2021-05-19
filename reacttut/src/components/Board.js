@@ -20,6 +20,13 @@ export class Board extends React.Component {
             xIsNext: !this.state.xIsNext,
         });
     }
+
+    // restartGame(){
+    //     this.state = {squares: Array(9).fill(null),
+    //         xIsNext: true,
+    //     };
+    // }
+
     renderSquare(i) {
         return (
             <Square

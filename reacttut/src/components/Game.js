@@ -12,7 +12,7 @@ export class Game extends React.Component {
                 </div>
                     <Button
                         className={"restart-game-button"}
-                        // TODO onClick={props.onClick}
+                    // onClick={this.state.restartGame}
                     >Restart game</Button>
                 <div className="game-info">
                     <div>{/* status */}</div>
@@ -21,4 +21,9 @@ export class Game extends React.Component {
             </div>
         );
     }
+    // restartGame(){
+    //     this. = {squares: Array(9).fill(null),
+    //         xIsNext: true,
+    //     };
+    // }
 }
