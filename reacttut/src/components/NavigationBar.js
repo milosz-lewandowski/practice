@@ -12,6 +12,7 @@ export class NavigationBar extends React.Component{
                             {/*<NavDropdown.Item href="https://miloszlewandowski.pl/justhappened">JustHappened description</NavDropdown.Item>*/}
                             <NavDropdown.Item href="#link" >My resume</NavDropdown.Item>
                             <NavDropdown.Divider />
+                            <NavDropdown.Item href="#link">JP2 GMD Memes [HOT]</NavDropdown.Item>
                             {/*<NavDropdown.Item href="https://miloszlewandowski.pl/index">Previous static page</NavDropdown.Item>*/}
                             {/*<NavDropdown.Item href="https://miloszlewandowski.pl/therapists">Rest API</NavDropdown.Item>*/}
                             {/*<NavDropdown.Item onClick={LaunchTechDetailsModal}>Technical details</NavDropdown.Item>*/}
