@@ -11,7 +11,7 @@ export class NavigationBar extends React.Component{
                         <NavDropdown title="My projects" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://miloszlewandowski.pl/justhappened">JustHappened description</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://miloszlewandowski.pl/">Previous static page</NavDropdown.Item>
+                            <NavDropdown.Item href="https://miloszlewandowski.pl/index">Previous static page</NavDropdown.Item>
                             <NavDropdown.Item href="https://miloszlewandowski.pl/therapists">JustHappened Therapists API test</NavDropdown.Item>
                             {/*<NavDropdown.Item onClick={LaunchTechDetailsModal}>Technical details</NavDropdown.Item>*/}
                         </NavDropdown>
