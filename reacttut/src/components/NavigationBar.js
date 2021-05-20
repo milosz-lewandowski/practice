@@ -8,16 +8,21 @@ export class NavigationBar extends React.Component{
         return(
             <Navbar bg="light" expand="lg" >
                 <Nav className="justify-content-center">
-                        <NavDropdown title="My projects" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="https://miloszlewandowski.pl/justhappened">JustHappened description</NavDropdown.Item>
+                        <NavDropdown title="About me" id="basic-nav-dropdown">
+                            {/*<NavDropdown.Item href="https://miloszlewandowski.pl/justhappened">JustHappened description</NavDropdown.Item>*/}
+                            <NavDropdown.Item href="#link" >My resume</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="https://miloszlewandowski.pl/index">Previous static page</NavDropdown.Item>
-                            <NavDropdown.Item href="https://miloszlewandowski.pl/therapists">JustHappened Therapists API test</NavDropdown.Item>
+                            {/*<NavDropdown.Item href="https://miloszlewandowski.pl/index">Previous static page</NavDropdown.Item>*/}
+                            {/*<NavDropdown.Item href="https://miloszlewandowski.pl/therapists">Rest API</NavDropdown.Item>*/}
                             {/*<NavDropdown.Item onClick={LaunchTechDetailsModal}>Technical details</NavDropdown.Item>*/}
                         </NavDropdown>
                     </Nav>
-                    <Nav.Link href="#link" >My resume</Nav.Link>
-                    <Nav.Link href="#home">About me</Nav.Link>
+                    {/*<Nav.Link href="#link" >My resume</Nav.Link>*/}
+                    {/*<Nav.Link href="#link" >My resume</Nav.Link>*/}
+                    <Nav.Link href="https://miloszlewandowski.pl/therapists">Rest API</Nav.Link>
+                    <Nav.Link href="https://miloszlewandowski.pl/justhappened">JustHappened</Nav.Link>
+                    <Nav.Link href="https://miloszlewandowski.pl/index">miloszlewandowski.pl</Nav.Link>
+                    {/*<Nav.Link href="#home">About me</Nav.Link>*/}
             </Navbar>
         )
     }
