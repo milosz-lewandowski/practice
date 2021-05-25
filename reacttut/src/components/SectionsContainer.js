@@ -8,7 +8,7 @@ import {TechnicalDetails} from "./TechnicalDetails";
 export class SectionsContainer extends React.Component{
     render() {
         return(
-            <Accordion>
+            <Accordion defaultActiveKey="">
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="1">
